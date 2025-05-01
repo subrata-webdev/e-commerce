@@ -1,0 +1,13 @@
+https://ostad.app/en/dashboard/my-courses/6683e66e41faaeaa7cfc2e7f/module/66cb1434c4a1ed6b6aa44fc1#scrum_meeting
+
+php artisan make:model User -m
+php artisan make:model CustomerProfile -m
+php artisan make:model Category -m
+php artisan make:model Product -m
+php artisan make:model ProductDetail -m
+php artisan make:model Slider -m
+php artisan make:model Wishlist -m
+php artisan make:model Invoice -m
+php artisan make:model InvoiceProduct -m
+php artisan make:model ProductReview -m
+php artisan make:model SSLCommerzCredential -m
