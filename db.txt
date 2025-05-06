@@ -1,0 +1,16 @@
+ $table->id();
+ $table->string('cus_name')->nullable();
+ $table->string('cus_add')->nullable();
+ $table->string('cus_state')->nullable();
+ $table->string('cus_postcode')->nullable();
+ $table->string('cus_country')->nullable();
+ $table->string('cus_phone')->nullable();
+ $table->string('cus_fax')->nullable();
+ $table->string('ship_name')->nullable();
+ $table->string('ship_add')->nullable();
+$table->string('ship_city')->nullable();
+$table->string('ship_state')->nullable();
+$table->string('ship_postcode')->nullable();
+$table->string('ship_country')->nullable();
+$table->string('ship_phone')->nullable();
+$table->foreignId('user_id')->constrained();

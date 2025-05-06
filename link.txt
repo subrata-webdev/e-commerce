@@ -2,6 +2,8 @@ https://ostad.app/en/dashboard/my-courses/6683e66e41faaeaa7cfc2e7f/module/66cb14
 
 php artisan make:model User -m
 php artisan make:model CustomerProfile -m
+
+php artisan make:model Brand -m
 php artisan make:model Category -m
 php artisan make:model Product -m
 php artisan make:model ProductDetail -m

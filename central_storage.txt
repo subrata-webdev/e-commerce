@@ -1,0 +1,13 @@
+-> Make a variable at .env
+UPLOAD_PATH="C:/shared/uploads"
+
+-> Create a disk in config at filesystems.php
+        'shared' => [
+            'driver' => 'local',
+            'root' => env('UPLOAD_PATH', storage_path('app/shared')),
+            'url' => env('APP_URL').'/shared',
+            'visibility' => 'public'
+        ],
+
+-> Create cmd file-
+mklink /d "C:\Users\Subrata Bardhan\Desktop\e-commerce\AdminApp\public\shared" "C:/shared/uploads"
