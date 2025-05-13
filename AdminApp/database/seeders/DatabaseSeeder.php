@@ -13,6 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(SsLCommerzSeeder::class);
+        $this->call([
+            AdminSeeder::class,
+            SsLCommerzSeeder::class
+        ]);
     }
 }
