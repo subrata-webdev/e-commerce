@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->text('otp')->nullable();
             $table->string('password');
+            $table->enum('role',['admin','user','editor'])->default('user');
             $table->rememberToken();
             $table->timestamps();
         });
